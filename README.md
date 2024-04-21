@@ -29,7 +29,7 @@ The interpretable ProtoPNet branch, as shown above, classifies images by calcula
 ***
 ## Hardware & Software
 
-We re-implement the paper with Pytorch 1.9.1+cu111 on 2 NVIDIA A40 GPUs, and our trained model weights (EfficientNet B0 as backbone) are provided concomitantly. These models are trained using our private mammogram database (about 30 thousand mammographic images). 
+We re-implement the paper with Pytorch 1.9.1+cu111 on 2 NVIDIA A40 GPUs, and our trained model weights (EfficientNet B0 as backbone) are provided concomitantly. These models are trained using our private mammogram database (about 67 thousand mammographic images). 
 
 
 ## Training 
