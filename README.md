@@ -44,7 +44,7 @@ We re-implement the paper with Pytorch 1.9.1+cu111 on 2 NVIDIA A40 GPUs, and our
  python train_protopnet.py
 ```
 
-2. Retraining the GlobalNet branch, using pseudo labels of the accurate ProtoPNet:
+3. Retraining the GlobalNet branch, using pseudo labels of the accurate ProtoPNet:
 ```
  python retrain_globalnet.py
 ```
