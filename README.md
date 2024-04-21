@@ -1,6 +1,6 @@
 # InterNRL:
 
-Unofficial implementation of the paper "An Interpretable and Accurate Deep-Learning Diagnosis Framework Modeled With Fully and Semi-Supervised Reciprocal Learning" ([IEEE TMI 2023](https://ieeexplore.ieee.org/document/10225391)), presenting a deep interpretable framework for diagnosing medical diseases,
+This is an unofficial implementation of the paper "An Interpretable and Accurate Deep-Learning Diagnosis Framework Modeled With Fully and Semi-Supervised Reciprocal Learning" ([IEEE TMI 2023](https://ieeexplore.ieee.org/document/10225391)), presenting a deep interpretable framework for diagnosing medical diseases,
 e.g., breast cancer in mammograms, retinopathy in optical coherence tomography (OCT) images, and brain tumor in magnetic resonance (MR) images.
 
 
