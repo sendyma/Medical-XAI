@@ -1,0 +1,63 @@
+model_name : "EfficientNet-b0"
+use_pretrained : True
+use_augmentation : True
+
+use_gamma : False
+use_crop : True
+
+gpu_device : 0
+seed : 42
+num_workers : 6
+batch_size : 8
+epochs : 30
+
+earlystop_patience : 5
+reduceLR_patience : 1
+fc_size : 4096
+lr : 4.0e-4
+
+label_smooth: False
+
+
+transformer:
+    depth: 1
+
+run_name: null  
+run_note: "default-test-20k"
+
+
+
+## pretraining
+#file_paths:
+#
+#    csv_path: /media/data/mammo_db
+#    img_path: /media/data/mammo_db/processed_images_balanced_0224/
+#
+#
+#    info: 20k
+#
+##    train_name: train_balanced_0224.csv
+#    train_name: train_balanced_0224_2k.csv
+#    valid_name: valid_balanced_0224.csv
+#    test_name: test_balanced_0224.csv
+
+
+
+
+
+# 2-stages
+file_paths:
+
+    csv_path: /media/data/mammo_db
+    img_path: /media/data/mammo_db/processed_images_balanced_0224/
+
+
+    info: 20k
+
+    train_name: train_balanced_0224_2k.csv
+    train_name_unlabeled: train_balanced_0224_10k.csv
+    # train_name: train_balanced_0224.csv
+    # train_name_unlabeled: unlabeled_balanced_0224_24k.csv
+    valid_name: valid_balanced_0224.csv
+    test_name: test_balanced_0224.csv
+    # test_name: test_balanced_0224_moreneg.csv
