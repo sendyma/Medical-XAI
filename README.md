@@ -29,7 +29,7 @@ The interpretable ProtoPNet branch, as shown above, classifies images by calcula
 ***
 ## Hardware & Software
 
-We re-implement the paper with Pytorch 1.9.1+cu111 on 2 NVIDIA A40 GPUs.
+We re-implement the paper with Pytorch 1.9.1+cu111 on 2 NVIDIA A40 GPUs, and our trained model weights (EfficientNet B0 as backbone) are provided concomitantly.
 
 
 ## Training 
@@ -64,7 +64,7 @@ The cancer localisation heatmap can be computed using:
 
 ## Visualisation of Prototypes
 
-Typical prototypes are visualised in the paper, together with the corresponding source training images and self-activated similarity maps.
+The authors give visualised prototypes in their paper, together with the corresponding source training images and self-activated similarity maps.
 
 
 <p align="center">
@@ -76,7 +76,7 @@ class="center">
 
 ## Example of Interpretable Reasoning
 
-As illustrated in the paper, for a testing mammogram, the method classifies it as belonging to the cancer class 
+As illustrated by the authors, for a testing mammogram, the method classifies it as belonging to the cancer class 
 because the abnormality present in the image looks more similar to the cancer prototypes than the non-cancer ones, 
 as evidenced by the higher similarity scores with the cancer prototypes.
 
