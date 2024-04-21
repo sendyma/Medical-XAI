@@ -87,3 +87,13 @@ class="center">
 </p>
 
 
+__Please remember to respect the authors and cite their work properly__: 
+
+    @article{wang2023interpretable,
+      title={An Interpretable and Accurate Deep-learning Diagnosis Framework Modelled with Fully and Semi-supervised Reciprocal Learning},
+      author={Wang, Chong and Chen, Yuanhong and Liu, Fengbei and Elliott, Michael and Kwok, Chun Fung and Pe{\~n}a-Solorzano, Carlos and Frazer, Helen and McCarthy, Davis James and Carneiro, Gustavo},
+      journal={IEEE Transactions on Medical Imaging},
+      year={2023},
+      publisher={IEEE}
+    }
+
