@@ -64,7 +64,7 @@ The cancer localisation heatmap can be computed using:
 
 ## Visualisation of Prototypes
 
-Typical prototypes are visualised as in the paper, together with the corresponding source training images and self-activated similarity maps.
+Typical prototypes are visualised in the paper, together with the corresponding source training images and self-activated similarity maps.
 
 
 <p align="center">
