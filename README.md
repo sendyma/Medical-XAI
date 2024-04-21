@@ -87,7 +87,10 @@ class="center">
 </p>
 
 
-__Please remember to respect the authors and cite their work properly__: 
+
+## Citations and Acknolwdgements
+
+Please remember to respect the authors and cite their work properly: 
 
     @article{wang2023interpretable,
       title={An Interpretable and Accurate Deep-learning Diagnosis Framework Modelled with Fully and Semi-supervised Reciprocal Learning},
@@ -97,3 +100,13 @@ __Please remember to respect the authors and cite their work properly__:
       publisher={IEEE}
     }
 
+
+We refer to the repository below to implement this code:
+
+[Prototypical part network (ProtoPNet)](https://github.com/cfchen-duke/ProtoPNet)
+
+
+
+## Contributions
+
+I'm happy that you want to further contribute and improve the code, any suggestion is welcome.
