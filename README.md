@@ -88,7 +88,7 @@ class="center">
 
 
 
-## Citations and Acknolwdgements
+## Citation and Acknolwdgement
 
 Please remember to respect the authors and cite their work properly: 
 
