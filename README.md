@@ -18,7 +18,7 @@ and (c) the teacher GlobalNet is further trained using the pseudo labels produce
 
 
 <p align="center">
-<img src="./figures/protopnet.png" width=60% height=60% 
+<img src="./figures/protopnet.png" width=70% height=70% 
 class="center">
 </p>
 
