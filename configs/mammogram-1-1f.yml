@@ -34,8 +34,6 @@ run_note: "default-test-20k"
 #    img_path: /media/data/mammo_db/processed_images_balanced_0224/
 #
 #
-#    info: 20k
-#
 ##    train_name: train_balanced_0224.csv
 #    train_name: train_balanced_0224_2k.csv
 #    valid_name: valid_balanced_0224.csv
@@ -51,8 +49,6 @@ file_paths:
     csv_path: /media/data/mammo_db
     img_path: /media/data/mammo_db/processed_images_balanced_0224/
 
-
-    info: 20k
 
     train_name: train_balanced_0224_2k.csv
     train_name_unlabeled: train_balanced_0224_10k.csv
