@@ -23,7 +23,7 @@ transformer:
     depth: 1
 
 run_name: null  
-run_note: "default-test-20k"
+run_note: "default"
 
 
 
