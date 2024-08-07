@@ -47,7 +47,7 @@ shutil.copy(src=os.path.join(os.getcwd(), __file__), dst=model_dir)
 shutil.copy(src=os.path.join(os.getcwd(), 'utils_model/settings.py'), dst=model_dir)
 shutil.copy(src=os.path.join(os.getcwd(), 'models/model_globalnet.py'), dst=model_dir)
 shutil.copy(src=os.path.join(os.getcwd(), 'train_and_test.py'), dst=model_dir)
-shutil.copy(src=os.path.join(os.getcwd(), 'utils_data/utlis_func_aux_v2.py'), dst=model_dir)
+shutil.copy(src=os.path.join(os.getcwd(), 'utils_data/utlis_func.py'), dst=model_dir)
 shutil.copy(src=os.path.join(os.getcwd(), 'data/mammo_dataloader.py'), dst=model_dir)
 shutil.copy(src=os.path.join(os.getcwd(), 'configs/mammogram-1-1f.yml'), dst=model_dir)
 
